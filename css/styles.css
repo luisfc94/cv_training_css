@@ -1,0 +1,116 @@
+body {
+  color: #40514e;
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  text-align: center;
+}
+h1 {
+  color: #db6400;
+  font-family: 'Parisienne', cursive;
+  font-size: 4rem;
+  margin: 50px auto 0 auto;
+}
+h2{
+  color: #db6400;
+  font-size: 1.5rem;
+  font-weight: normal;
+}
+h3{
+  color: #5eaaa8;
+  text-align: left;
+}
+hr{
+  border-color: #5eaaa8;
+  border-style: dotted none none none;
+  border-width: 9px;
+  margin: 50px auto;
+  width: 6%;
+}
+a:hover{
+  color: #f8f1f1;
+}
+.music{
+  text-decoration: underline;
+}
+.top-container{
+  background-color: #a3d2ca;
+  padding-top: 25px;
+  position: relative;
+}
+.middle-container{
+  background-color: #f8f1f1;
+  padding: 50px 0;
+}
+.bottom-container{
+  background-color: #5eaaa8;
+  color: #f8f1f1;
+  font-size: 0.75rem;
+  padding: 25px;
+}
+.top-cloud{
+  position: absolute;
+  right: 25%;
+}
+.bottom-cloud{
+  position: absolute;
+  left: 25%;
+}
+.skill-row{
+  line-height: 2;
+  margin: 50px auto;
+  text-align: left;
+  width: 50%;
+}
+.composition{
+  float: left;
+  margin-right: 30px;
+  width: 25%;
+}
+.orchestration{
+  float: right;
+  margin-left: 30px;
+  width: 10%;
+}
+.profile-picture{
+  border-radius: 100px;
+}
+.contact-description{
+  text-align: center;
+}
+.footer-link{
+  color: #db6400;
+  font-size: 1rem;
+  margin: auto 25px;
+  text-decoration: none;
+}
+.contact-button {
+   background: #A3D2CA;
+   background-image: -webkit-linear-gradient(top, #A3D2CA, #5EAAA8);
+   background-image: -moz-linear-gradient(top, #A3D2CA, #5EAAA8);
+   background-image: -ms-linear-gradient(top, #A3D2CA, #5EAAA8);
+   background-image: -o-linear-gradient(top, #A3D2CA, #5EAAA8);
+   background-image: -webkit-gradient(to bottom, #A3D2CA, #5EAAA8);
+   -webkit-border-radius: 12px;
+   -moz-border-radius: 12px;
+   border-radius: 12px;
+   color: #F8F1F1;
+   font-weight: 100;
+   padding: 12px;
+   text-decoration: none;
+   display: inline-block;
+   cursor: pointer;
+   text-align: center;
+}
+.contact-button:hover {
+   border: solid #99C624 0;
+   background: #5EAAA8;
+   background-image: -webkit-linear-gradient(top, #5EAAA8, #A3D2CA);
+   background-image: -moz-linear-gradient(top, #5EAAA8, #A3D2CA);
+   background-image: -ms-linear-gradient(top, #5EAAA8, #A3D2CA);
+   background-image: -o-linear-gradient(top, #5EAAA8, #A3D2CA);
+   background-image: -webkit-gradient(to bottom, #5EAAA8, #A3D2CA);
+   -webkit-border-radius: 12px;
+   -moz-border-radius: 12px;
+   border-radius: 12px;
+   text-decoration: none;
+}
